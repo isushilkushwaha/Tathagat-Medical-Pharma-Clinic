@@ -8,110 +8,185 @@
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" 
+href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
 </head>
 <body>
 
     <header class="navbar">
-        <div class="container">
-            <div class="logo">
-                <i class="fas fa-hand-holding-medical"></i> <span>[Tathagat Medical & Pharma Clinic]</span>
-            </div>
-            <nav>
-                <ul class="nav-links" id="nav-links">
-                    <li><a href="#home">Home</a></li>
-                    <li><a href="#about">About Doctor</a></li>
-                    <li><a href="#services">Services</a></li>
-                    <li><a href="#pharmacy">Pharmacy</a></li>
-                    <li><a href="#location">Contact</a></li>
-                    <li><a href="#appointment" class="btn-small">Book Now</a></li>
-                </ul>
-                <div class="hamburger" id="hamburger">
-                    <i class="fas fa-bars"></i>
-                </div>
-            </nav>
+    <div class="container">
+        <div class="logo">
+            <i class="fas fa-hand-holding-medical"></i>
+            <span>Tathagat Medical & Pharma Clinic</span>
         </div>
-    </header>
 
-    <section id="home" class="hero">
-        <div class="container hero-content">
-            <div class="hero-text">
-                <span class="badge">Trusted Healthcare Provider</span>
-                <h1>Complete Healthcare & Medicine Under One Roof</h1>
-                <p>Experience compassionate care with modern medical expertise. We provide comprehensive general consultation and a fully stocked pharmacy.</p>
-                <div class="hero-btns">
-                    <a href="tel:+1234567890" class="btn-primary"><i class="fas fa-phone"></i> Call Now</a>
-                    <a href="#appointment" class="btn-secondary">Book Appointment</a>
-                </div>
-                <div class="timing">
-                    <i class="far fa-clock"></i> <strong>Clinic Hours:</strong> Mon - Sat: 9:00 AM - 9:00 PM
-                </div>
+        <nav>
+            <ul class="nav-links" id="nav-links">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About Doctor</a></li>
+                <li><a href="#services">Services</a></li>
+                <!-- <li><a href="#pharmacy">Pharmacy</a></li>
+                <li><a href="#location">Contact</a></li> -->
+                <li><a href="#appointment" class="btn-small">Book Now</a></li>
+            </ul>
+
+            <div class="hamburger" id="hamburger">
+                <i class="fas fa-bars"></i>
             </div>
-            <div class="hero-image">
-                <img src="Professinal.jpg" alt="Medical Professional">
+        </nav>
+    </div>
+</header>
+
+   <section id="home" class="hero">
+    <div class="container hero-content">
+
+        <div class="hero-text">
+            <span class="badge">Trusted Healthcare Provider</span>
+            <h1>Tathagat Medical & Pharma Clinic</h1>
+            <h2>Complete Healthcare & Medicine Under One Roof</h2>
+            <p>
+                Experience compassionate care with modern medical expertise.
+                We provide general consultation, treatment guidance,
+                and a fully stocked pharmacy — all in one place.
+            </p>
+
+            <div class="hero-btns">
+                <a href="tel:+919936459785" class="btn-primary">
+                    <i class="fas fa-phone"></i> Call Now
+                </a>
+                <a href="https://wa.me/919936459785?text=Hello%20Tathagat%20Medical%20%26%20Pharma%20Clinic%2C%0A%0A%E0%A4%AE%E0%A5%88%E0%A4%82%20%E0%A4%85%E0%A4%AA%E0%A5%89%E0%A4%87%E0%A4%82%E0%A4%9F%E0%A4%AE%E0%A5%87%E0%A4%82%E0%A4%9F%20%E0%A4%AC%E0%A5%81%E0%A4%95%20%E0%A4%95%E0%A4%B0%E0%A4%A8%E0%A4%BE%20%E0%A4%9A%E0%A4%BE%E0%A4%B9%E0%A4%A4%E0%A4%BE%2F%E0%A4%9A%E0%A4%BE%E0%A4%B9%E0%A4%A4%E0%A5%80%20%E0%A4%B9%E0%A5%82%E0%A4%81%E0%A5%A4%0A%0APatient%20Name%20%28%E0%A4%A8%E0%A4%BE%E0%A4%AE%29%3A%0AAge%20%28%E0%A4%89%E0%A4%AE%E0%A5%8D%E0%A4%B0%29%3A%0AGender%20%28%E0%A4%B2%E0%A4%BF%E0%A4%82%E0%A4%97%29%3A%0AContact%20Number%3A%0AProblem%20%2F%20Symptoms%20%28%E0%A4%B8%E0%A4%AE%E0%A4%B8%E0%A5%8D%E0%A4%AF%E0%A4%BE%29%3A%0APreferred%20Date%20%28%E0%A4%A4%E0%A4%BE%E0%A4%B0%E0%A5%80%E0%A4%96%29%3A%0APreferred%20Time%20%28%E0%A4%B8%E0%A4%AE%E0%A4%AF%29%3A%0A%0A%E0%A4%95%E0%A5%83%E0%A4%AA%E0%A4%AF%E0%A4%BE%20%E0%A4%85%E0%A4%AA%E0%A5%89%E0%A4%87%E0%A4%82%E0%A4%9F%E0%A4%AE%E0%A5%87%E0%A4%82%E0%A4%9F%20%E0%A4%95%E0%A4%A8%E0%A5%8D%E0%A4%AB%E0%A4%B0%E0%A5%8D%E0%A4%AE%20%E0%A4%95%E0%A4%B0%E0%A5%87%E0%A4%82%E0%A5%A4%20%E0%A4%A7%E0%A4%A8%E0%A5%8D%E0%A4%AF%E0%A4%B5%E0%A4%BE%E0%A4%A6%E0%A5%A4"
+   class="btn-secondary"
+   target="_blank">
+   <i class="fab fa-whatsapp"></i> Book on WhatsApp
+</a>
+            </div>
+
+            <div class="timing">
+                <i class="far fa-clock"></i>
+                <strong>Clinic Hours:</strong> Mon - Sat: 9:00 AM - 9:00 PM
             </div>
         </div>
-    </section>
+
+        <div class="hero-image">
+            <img src="Professinal.jpg" alt="Clinic Image">
+        </div>
+
+    </div>
+</section>
+
+<!-- This is doctore section -->
+
 
     <section id="about" class="about">
-        <div class="container">
-            <div class="about-grid">
-                <div class="about-img">
-                    <img src="https://scontent.flko7-4.fna.fbcdn.net/v/t1.6435-9/91630441_639122796939788_7890045275702558720_n.jpg?_nc_cat=100&ccb=1-7&_nc_sid=1d70fc&_nc_ohc=qqy-McWEAC4Q7kNvwGdy_st&_nc_oc=AdmQ2rGia53n0sgTSZ2G0NDyZu_IgBzVkFoheB-RmbMmLAnEzJKX14vZuv2vYlBuzZ0Cph6MRPYJrrlsuVj0Rb5q&_nc_zt=23&_nc_ht=scontent.flko7-4.fna&_nc_gid=Wt0MaoF-p5zcnBiEbeq78g&_nc_ss=8&oh=00_AfyxGL-iTlAorm2sOxWdMFtjbZ0p6jySuGbq3imdtjXdSg&oe=69CDE18D" alt="Doctor Profile" height="500" width="600">
+    <div class="container">
+
+
+
+        <div class="doctor-wrapper">
+
+            <!-- Doctor 1 -->
+            <div class="doctor-profile">
+                <div class="doctor-image">
+                    <img src="Raj Kushwaha.jpeg" alt="Doctor 1">
                 </div>
-                <div class="about-text">
-                    <h2>Meet Your Physician</h2>
-                    <h3>[Doctor Name]</h3>
-                    <p class="qualification">D.Pharam (General Medicine)</p>
-                    <p class="experience"><strong>Experience:</strong> [15] Years of clinical practice</p>
-                    <p class="bio">Providing patient-centric care with a focus on preventative medicine. Specialized in managing chronic conditions and acute illnesses with a personal touch that builds long-term health partnerships.</p>
-                    <!-- <p class="reg-no"><strong>Registration No:</strong> [ABC-12345-XYZ]</p> -->
+
+                <div class="doctor-info">
+                    <h3>Drx. Buddhraj Kushwaha </h3>
+                    <p class="qualification">D.Pharma (General Medicine)</p>
+                    <p><strong>Experience:</strong> 10+ Years</p>
+                    <!-- <p>
+                        Dedicated to providing compassionate and patient-focused
+                        medical care. Specialized in treating fever, infections,
+                        diabetes management, and general health consultation.
+                    </p> -->
                 </div>
             </div>
+
+            <!-- Doctor 2 -->
+            <div class="doctor-profile">
+                <div class="doctor-image">
+                    <img src="ankita.jpeg" alt="Doctor 2">
+                </div>
+
+                <div class="doctor-info">
+                    <h3>Ankita Kushwaha</h3>
+                    <p class="qualification">Nursing Officer, Banda</p>
+                    <!-- <p><strong>Experience:</strong> 10+ Years</p> -->
+                    <!-- <p>
+                        Expert in chronic disease care, joint pain treatment,
+                        seasonal illness management, and preventive healthcare
+                        guidance for long-term wellness.
+                    </p> -->
+                </div>
+            </div>
+
         </div>
-    </section>
+
+    </div>
+</section>
+
+<!-- This is servic section -->
 
     <section id="services" class="services">
-        <div class="container">
-            <div class="section-title">
-                <h2>Our Medical Services</h2>
-                <p>Quality healthcare services tailored to your family's needs</p>
-            </div>
-            <div class="services-grid">
-                <div class="card">
-                    <i class="fas fa-user-md"></i>
-                    <h3>General Consultation</h3>
-                    <p>Comprehensive physical exams and diagnosis for common health issues.</p>
-                </div>
-                <div class="card">
-                    <i class="fas fa-thermometer-half"></i>
-                    <h3>Fever & Infection</h3>
-                    <p>Expert management of viral, bacterial, and seasonal infections.</p>
-                </div>
-                <div class="card">
-                    <i class="fas fa-heartbeat"></i>
-                    <h3>Diabetes & BP</h3>
-                    <p>Routine screening and management of hypertension and glucose levels.</p>
-                </div>
-                <div class="card">
-                    <i class="fas fa-baby"></i>
-                    <h3>Child & Family Care</h3>
-                    <p>Specialized attention for pediatric health and family wellness planning.</p>
-                </div>
-                <div class="card">
-                    <i class="fas fa-stretcher"></i>
-                    <h3>Minor Procedures</h3>
-                    <p>Dressing, suturing, and basic outpatient surgical procedures.</p>
-                </div>
-                <div class="card">
-                    <i class="fas fa-notes-medical"></i>
-                    <h3>Health Checkups</h3>
-                    <p>Preventative health packages and routine diagnostic screenings.</p>
-                </div>
-            </div>
-        </div>
-    </section>
+    <div class="container">
 
-    <section id="pharmacy" class="pharmacy">
+        <!-- Section Title (Top Center) -->
+        <div class="section-title">
+            <h2>Our Medical Services</h2>
+            <p>Quality healthcare services tailored to your family's needs</p>
+        </div>
+
+        <!-- Cards Grid -->
+        <div class="services-grid">
+
+            <div class="card">
+                <i class="fas fa-user-md"></i>
+                <h3>General Consultation</h3>
+                <p>Comprehensive physical exams and diagnosis for common health issues.</p>
+            </div>
+
+            <div class="card">
+                <i class="fas fa-thermometer-half"></i>
+                <h3>Fever & Infection</h3>
+                <p>Expert management of viral, bacterial, and seasonal infections.</p>
+            </div>
+
+            <div class="card">
+                <i class="fas fa-heartbeat"></i>
+                <h3>Diabetes & BP</h3>
+                <p>Routine screening and management of hypertension and glucose levels.</p>
+            </div>
+
+            <div class="card">
+                <i class="fas fa-baby"></i>
+                <h3>Child & Family Care</h3>
+                <p>Specialized attention for pediatric health and family wellness planning.</p>
+            </div>
+
+            <div class="card">
+                <i class="fas fa-stretcher"></i>
+                <h3>Minor Procedures</h3>
+                <p>Dressing, suturing, and outpatient procedures.</p>
+            </div>
+
+            <div class="card">
+                <i class="fas fa-notes-medical"></i>
+                <h3>Health Checkups</h3>
+                <p>Preventative health packages and routine diagnostic screenings.</p>
+            </div>
+
+        </div>
+
+    </div>
+</section>
+
+
+
+
+<!-- pharmacy section -->
+
+
+    <!-- <section id="pharmacy" class="pharmacy">
         <div class="container pharmacy-box">
             <div class="pharmacy-content">
                 <h2>On-Site Pharmacy</h2>
@@ -128,103 +203,126 @@
                 </div>
             </div>
         </div>
-    </section>
+    </section> -->
 
     <section class="testimonials">
-        <div class="container">
-            <div class="section-title">
-                <h2>What Our Patients Say</h2>
+    <div class="container">
+
+        <!-- TITLE ON TOP -->
+        <div class="section-title">
+            <h2>What Our Patients Say</h2>
+            <p>Trusted by families for quality healthcare</p>
+        </div>
+
+        <!-- REVIEWS BELOW -->
+        <div class="testimonial-scroll">
+
+            <div class="test-card">
+                <img src="patient1.jpg" class="patient-img" alt="Patient">
+                <div class="stars">★★★★★</div>
+                <p>
+                    Excellent doctor! Very patient and explained everything clearly.
+                </p>
+                <h4>– Sushil Kushwaha</h4>
             </div>
-            <div class="testimonial-grid">
-                <div class="test-card">
-                    <div class="stars">★★★★★</div>
-                    <p>"Excellent doctor! Very patient and explained the diagnosis clearly. The pharmacy is very convenient."</p>
-                    <h4>- Anuj Kushwaha</h4>
-                </div>
-                <div class="test-card">
-                    <div class="stars">★★★★★</div>
-                    <p>"Highly recommend for pediatric care. My child was very comfortable during the checkup."</p>
-                    <h4>- Ansh Kushwaha</h4>
-                </div>
-                <div class="test-card">
-                    <div class="stars">★★★★★</div>
-                    <p>"Affordable consultation and medicines. The home delivery service for meds is a lifesaver."</p>
-                    <h4>- Sushil Kushwaha.</h4>
-                </div>
+
+            <div class="test-card">
+                <img src="patient2.jpeg" class="patient-img" alt="Patient">
+                <div class="stars">★★★★★</div>
+                <p>
+                    Affordable consultation and quick WhatsApp booking..
+                </p>
+                <h4>– Gyandeep</h4>
+            </div>
+
+            <div class="test-card">
+                <img src="patient3.jpeg" class="patient-img" alt="Patient">
+                <div class="stars">★★★★★</div>
+                <p>
+                    I felt like I was  in safe hands from the moment I walked in.
+                </p>
+                <h4>– Harshpriya</h4>
+            </div>
+
+        </div>
+
+    </div>
+</section>
+
+
+
+    <section id="appointment" class="appointment-section">
+    <div class="container">
+
+        <!-- Section Title -->
+        <div class="section-title">
+            <h2>Book an Appointment</h2>
+            <p>Fill the form below and our team will confirm shortly</p>
+        </div>
+
+        <!-- Google Form -->
+        <div class="appointment-form">
+            <iframe 
+                src="https://docs.google.com/forms/d/e/1FAIpQLSf6Qmx9TIKyDqaoZeL7LLB20JFcKpHWTUmGViVUUG-6ePbbbw/viewform?embedded=true"
+                width="100%"
+                height="700"
+                frameborder="0"
+                marginheight="0"
+                marginwidth="0">
+                Loading…
+            </iframe>
+        </div>
+
+    </div>
+</section>
+
+
+
+    <footer class="modern-footer">
+    <div class="container footer-grid">
+
+        <!-- Clinic Info -->
+        <div class="footer-col">
+            <div class="logo white">
+                <i class="fas fa-hand-holding-medical"></i> 
+                <span>Tathagat Medical & Pharma Clinic</span>
+            </div>
+            <p>
+                Providing quality healthcare and reliable medicines 
+                to our community with compassion and trust.
+            </p>
+        </div>
+
+        
+
+        <!-- Contact Info -->
+        <div class="footer-col">
+            <h4>Contact Info</h4>
+            <p><i class="fas fa-phone-alt"></i> +91 9936459785</p>
+            <p><i class="fas fa-envelope"></i> tathagatpharmaandclinic@gmail.com</p>
+            <p><i class="fas fa-map-marker-alt"></i> Pahadi road jari bazar Prayagraj, Uttar Pradesh</p>
+
+            <div class="socials">
+                <a href="#"><i class="fab fa-facebook-f"></i></a>
+                <a href="#"><i class="fab fa-instagram"></i></a>
+                <a href="#"><i class="fab fa-whatsapp"></i></a>
             </div>
         </div>
-    </section>
 
-    <section id="appointment" class="appointment-location">
-        <div class="container">
-            <div class="contact-grid">
-                <div class="form-container">
-                    <h3>Request an Appointment</h3>
-                    <p>Fill the form below and we'll call you back.</p>
-                    <form action="#">
-                        <input type="text" placeholder="Your Name" required>
-                        <input type="tel" placeholder="Phone Number" required>
-                        <select required>
-                            <option value="">Select Problem</option>
-                            <option value="fever">General Fever</option>
-                            <option value="checkup">Routine Checkup</option>
-                            <option value="pharmacy">Pharmacy Inquiry</option>
-                        </select>
-                        <input type="date" required>
-                        <button type="submit" class="btn-primary full-width">Send Request</button>
-                    </form>
-                </div>
+    </div>
 
-                <div id="location" class="location-info">
-                    <h3>Visit Us</h3>
-                    <p><i class="fas fa-map-marker-alt"></i> 123 Healthcare Street, Medical Plaza,<br> [City, State, Zip]</p>
-                    <p><i class="fas fa-map-signs"></i> <strong>Landmark:</strong> Near Central Park Metro</p>
-                    <p><i class="fas fa-phone-alt"></i> +91 98765 43210</p>
-                    
-                    <div class="map-placeholder">
-                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3559.870830422114!2d80.941913!3d26.8466937!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zMjbCsDUwJzQ4LjEiTiA4MMKwNTYnMzAuOSJF!5e0!3m2!1sen!2sin!4v1600000000000!5m2!1sen!2sin" width="100%" height="200" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
+    <!-- Copyright -->
+    <div class="copyright">
+        © 2026 Tathagat Medical & Pharma Clinic. All Rights Reserved.
+    </div>
+</footer>
 
-    <footer>
-        <div class="container footer-grid">
-            <div class="footer-col">
-                <div class="logo white">
-                    <i class="fas fa-hand-holding-medical"></i> <span>[Clinic Name]</span>
-                </div>
-                <p>Providing quality healthcare and reliable medicines to our community since [Year].</p>
-            </div>
-            <div class="footer-col">
-                <h4>Quick Links</h4>
-                <ul>
-                    <li><a href="#home">Home</a></li>
-                    <li><a href="#about">About Doctor</a></li>
-                    <li><a href="#services">Services</a></li>
-                    <li><a href="#pharmacy">Pharmacy</a></li>
-                </ul>
-            </div>
-            <div class="footer-col">
-                <h4>Contact Info</h4>
-                <p>Email: contact@clinic.com</p>
-                <p>Phone: +91 98765 43210</p>
-                <div class="socials">
-                    <a href="#"><i class="fab fa-facebook"></i></a>
-                    <a href="#"><i class="fab fa-instagram"></i></a>
-                    <a href="#"><i class="fab fa-linkedin"></i></a>
-                </div>
-            </div>
-        </div>
-        <div class="copyright">
-            &copy; 2026 [Clinic Name]. All Rights Reserved.
-        </div>
-    </footer>
+<!-- Floating WhatsApp Button -->
+<a href="https://wa.me/919936459785" class="whatsapp-float" target="_blank">
+    <i class="fab fa-whatsapp"></i>
+</a>
 
-    <a href="https://wa.me/918303806952" class="whatsapp-float" target="_blank">
-        <i class="fab fa-whatsapp"></i>
-    </a>
+    
 
     <script src="script.js"></script>
 </body>
